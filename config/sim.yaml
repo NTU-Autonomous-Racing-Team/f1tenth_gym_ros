@@ -43,7 +43,7 @@ bridge:
 
     # map parameters
     # map_path: '/sim_ws/src/f1tenth_gym_ros/maps/Nuerburgring_map'
-    map_path: './src/f1tenth_gym_ros/maps/korea'
+    map_path: './src/f1tenth_gym_ros/maps/korea_obs'
     map_img_ext: '.png'
     # map_img_ext: '.pgm'  # use this when map_path points to arc
 
