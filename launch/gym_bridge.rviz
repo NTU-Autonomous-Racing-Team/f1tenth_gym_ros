@@ -201,6 +201,16 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: waypoint_markers
       Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Obstacle Markers
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /obstacle_markers
+      Value: true
     - Class: rviz_default_plugins/Marker
       Enabled: true
       Name: State
